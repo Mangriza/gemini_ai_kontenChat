@@ -1,6 +1,6 @@
 export const generateContent = async (prompt: string) => {
     const apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent';
-    const apiKey = 'AIzaSyBw0ykK3wZA-jD5YXe9uE_pc3bxLHy-k-0'; // Gantilah dengan API key yang valid.
+    const apiKey = 'ur_api'; // Gantilah dengan API key yang valid.
   
     const response = await fetch(`${apiUrl}?key=${apiKey}`, {
       method: 'POST',
